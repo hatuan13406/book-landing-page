@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 680" width="600" height="680" role="img" aria-labelledby="title desc">
+<title id="title">Minh họa chân dung nhân vật tác giả</title><desc id="desc">Tranh chân dung cách điệu một người phụ nữ đeo kính đọc sách bên cửa sổ, màu xanh olive và kem</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d2d7c1"/><stop offset="1" stop-color="#98b19a"/></linearGradient><linearGradient id="window" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f3ecd9"/><stop offset="1" stop-color="#d7c9a7"/></linearGradient></defs>
+<rect width="600" height="680" fill="url(#bg)"/>
+<rect x="35" y="35" width="530" height="610" fill="none" stroke="#ecebdc" stroke-width="2" opacity=".65"/>
+<path d="M365 0h235v680H365Z" fill="#c8d1b7" opacity=".5"/>
+<rect x="355" y="72" width="195" height="346" rx="96" fill="url(#window)"/>
+<path d="M444 73v345M355 245h195" stroke="#a8b49d" stroke-width="7" opacity=".7"/>
+<circle cx="446" cy="180" r="55" fill="#f0cf96" opacity=".7"/>
+<path d="M26 551q169-136 311-14t263-19v162H0V568Z" fill="#6f977f"/>
+<path d="M28 621q238-88 368-25t204-25v109H0V641Z" fill="#3c6d5b"/>
+<ellipse cx="257" cy="607" rx="151" ry="33" fill="#325744" opacity=".4"/>
+<path d="M156 244Q137 130 214 107q80-49 134 44q33 65-4 137l-40 48-136-25Z" fill="#273d37"/>
+<ellipse cx="253" cy="253" rx="90" ry="123" fill="#dcae8e"/>
+<path d="M160 231q-3-132 82-139q111-4 116 125q-37-65-74-81q-37 39-123 49Z" fill="#293e36"/>
+<path d="M168 283q-42 124 36 141l-5-102Z" fill="#273d37"/>
+<path d="M337 250q55 136-6 186l-23-106Z" fill="#273d37"/>
+<path d="M207 248q20-8 44-2M277 246q23-9 40-2" stroke="#5b493a" fill="none" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#445749" stroke-width="6" fill="none"><rect x="199" y="235" width="54" height="36" rx="14"/><rect x="279" y="235" width="54" height="36" rx="14"/><path d="M253 246q13-7 26 0"/></g>
+<path d="M267 261q-6 20 4 27" stroke="#b1846e" stroke-width="3" fill="none"/>
+<path d="M239 305q27 16 50-2" stroke="#985e57" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M221 344v48h91v-48" fill="#d7a385"/>
+<path d="M103 608q17-167 76-214q38-23 49-24q40 43 75 0q91 13 127 238Z" fill="#efe9dc"/>
+<path d="M202 381l48 88 53-90" stroke="#d1c1aa" stroke-width="4" fill="none"/>
+<path d="M112 477Q237 423 406 473l-46 158H168Z" fill="#446554"/>
+<path d="M112 477q115-36 148 20q45-54 146-24l-42 151q-116-38-204 2Z" fill="#fcf2db"/>
+<path d="M259 497v141M166 527q39-11 72-3M284 524q35-8 67 2M172 563q35-12 63-4M286 558q35-8 68 4" stroke="#c6bca6" stroke-width="3" fill="none"/>
+<path d="M179 503q-21-12-38 10q-6 23 31 43" fill="#d9a98a"/>
+<path d="M375 503q33-13 43 10q10 24-40 42" fill="#d9a98a"/>
+<g fill="#f3f2e1" opacity=".5"><circle cx="71" cy="150" r="5"/><circle cx="95" cy="190" r="2"/><circle cx="511" cy="520" r="4"/></g>
+</svg>

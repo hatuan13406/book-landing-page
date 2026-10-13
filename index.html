@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Những Ngày Chưa Đặt Tên — landing page giới thiệu sách với tóm tắt, tác giả, đặc điểm, bảng giá, chương đọc thử và chia sẻ bạn đọc.">
+  <meta name="theme-color" content="#123b35">
+  <title>Những Ngày Chưa Đặt Tên | Book Landing Page</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua menu, tới nội dung</a>
+  <!-- 1. HEADER + NAVIGATION -->
+  <header class="hero-wrap" id="home">
+    <nav class="navbar navbar-expand-lg book-nav" data-bs-theme="dark" aria-label="Điều hướng chính">
+      <div class="container">
+        <a class="navbar-brand book-brand" href="#home" aria-label="Nhãn sách Mộc - Trang chủ">
+          <span class="brand-icon" aria-hidden="true"><i class="fa-solid fa-book-open"></i></span>
+          MỘC<span class="brand-dot">.</span><small>books</small>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bookNavbar" aria-controls="bookNavbar" aria-expanded="false" aria-label="Mở menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="bookNavbar">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#overview">Giới thiệu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#author">Tác giả</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Điểm nổi bật</a></li>
+            <li class="nav-item"><a class="nav-link" href="#prices">Bảng giá</a></li>
+            <li class="nav-item"><a class="nav-link" href="#reviews">Cảm nhận</a></li>
+          </ul>
+          <a class="nav-cta" href="#download">Đọc thử miễn phí <i class="fa-solid fa-arrow-up-right-from-square ms-2" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+    <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7 col-xl-7">
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> MỘC BOOKS PRESENTS <span class="eyebrow-spark">✦</span> MỘT CUỐN SÁCH ĐỂ CHẬM LẠI</div>
+          <h1 class="hero-title">Có những ngày,<br>ta cần <em>được lạc lối</em><br>để tìm thấy mình.</h1>
+          <p class="hero-description">Một hành trình dịu dàng qua những thành phố xa lạ, những lá thư chưa gửi và những giấc mơ tưởng đã bỏ quên.</p>
+          <div class="hero-buttons d-flex flex-wrap gap-3">
+            <a class="btn btn-paper" href="#download">Đọc chương đầu tiên <i class="fa-solid fa-arrow-right ms-2" aria-hidden="true"></i></a>
+            <a class="btn btn-border-light" href="#overview">Khám phá cuốn sách <i class="fa-solid fa-arrow-down ms-2" aria-hidden="true"></i></a>
+          </div>
+          <div class="hero-note"><span class="rating-stars" aria-hidden="true">★★★★★</span><span>Những dòng cảm nhận minh họa cho một câu chuyện mới.</span></div>
+        </div>
+        <div class="col-lg-5 col-xl-5">
+          <div class="hero-art">
+            <div class="orbit orbit-one" aria-hidden="true"></div>
+            <div class="orbit orbit-two" aria-hidden="true"></div>
+            <span class="float-label float-label-top">“A little room to breathe.”</span>
+            <div class="book-shadow-wrap"><img src="assets/book-cover.svg" class="hero-book" width="460" height="670" alt="Bìa sách minh họa Những Ngày Chưa Đặt Tên, phong cảnh núi đồi và mặt trời lặn"></div>
+            <span class="float-label float-label-bottom"><i class="fa-solid fa-leaf" aria-hidden="true"></i> Dành cho những tâm hồn mộng mơ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bottom container"><span>01 <span class="hero-index-line"></span> CHẠM VÀO NHỮNG CÂU CHUYỆN</span><a href="#overview">CUỘN ĐỂ KHÁM PHÁ <i class="fa-solid fa-arrow-down ms-2" aria-hidden="true"></i></a></div>
+  </header>
+
+  <main id="main">
+    <!-- 2. BOOK OVERVIEW -->
+    <section class="section-pad section-cream" id="overview" aria-labelledby="overview-heading">
+      <div class="container">
+        <div class="row align-items-center gy-5 gx-lg-5">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="overview-art">
+              <div class="overview-circle" aria-hidden="true"></div>
+              <div class="quote-paper"><span class="quote-mark">“</span><p>Không phải hành trình nào cũng cần một đích đến. Đôi khi, ta chỉ cần đủ can đảm để bước tiếp.</p><span class="paper-caption">— Trích nội dung hư cấu</span></div>
+              <div class="overview-decoration" aria-hidden="true">✳</div>
+              <div class="overview-art-label">WORDS THAT STAY WITH YOU <span>✦</span> 2026</div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="section-kicker"><span class="kicker-line"></span> THE BOOK OVERVIEW / 01</div>
+            <h2 class="section-title" id="overview-heading">Một cuốn sách.<br><em>Muôn điều để nghĩ.</em></h2>
+            <p class="body-copy mt-4">“Những Ngày Chưa Đặt Tên” là câu chuyện hư cấu về một người trẻ lựa chọn rời khỏi những điều quen thuộc để bắt đầu hành trình hiểu chính mình.</p>
+            <p class="body-copy">Qua từng chương, những cuộc gặp gỡ tình cờ, tấm bưu thiếp cũ và khoảnh khắc rất đỗi bình thường dần trở thành lời nhắc: đôi khi, điều quý giá nhất nằm ở những bước chân chậm rãi.</p>
+            <div class="overview-facts d-flex flex-wrap gap-4 mt-4">
+              <div><strong>08</strong><span>Chương truyện</span></div>
+              <div class="fact-divider" aria-hidden="true"></div>
+              <div><strong>01</strong><span>Hành trình</span></div>
+              <div class="fact-divider" aria-hidden="true"></div>
+              <div><strong>∞</strong><span>Góc nhìn mới</span></div>
+            </div>
+            <a class="text-link mt-4" href="#features">Điều gì đang chờ bạn? <i class="fa-solid fa-arrow-up-right-from-square ms-2" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. AUTHOR -->
+    <section class="section-pad section-white" id="author" aria-labelledby="author-heading">
+      <div class="container">
+        <div class="row align-items-center gy-5 gx-lg-5">
+          <div class="col-lg-5">
+            <div class="author-photo-frame">
+              <img src="assets/author-portrait.svg" alt="Chân dung nghệ thuật minh họa tác giả hư cấu Minh An" class="author-photo" width="600" height="680" loading="lazy">
+              <span class="author-photo-note">THE VOICE BEHIND THE PAGES ↗</span>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="author-copy">
+              <div class="section-kicker"><span class="kicker-line"></span> MEET THE AUTHOR / 02</div>
+              <h2 class="section-title" id="author-heading">Người viết nên<br><em>những khoảng lặng.</em></h2>
+              <h3 class="author-name">Minh An <span>— Tác giả hư cấu</span></h3>
+              <p class="body-copy">Minh An là nhân vật tác giả được xây dựng để minh họa website giới thiệu sách. Trong thế giới câu chuyện này, cô thích viết về những chuyến tàu muộn, quán cà phê nhỏ và những người đang học cách sống thành thật với cảm xúc.</p>
+              <div class="author-quote"><span aria-hidden="true">“</span><p>Viết không phải để kể một cuộc đời hoàn hảo, mà để tìm thấy vẻ đẹp trong những điều chưa trọn vẹn.</p></div>
+              <p class="author-disclaimer">* Tên tác giả, tác phẩm và tiểu sử trong website là nội dung minh họa cho bài tập.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. FEATURES -->
+    <section class="section-pad features-section" id="features" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="text-center section-heading-centered">
+          <div class="section-kicker justify-content-center"><span class="kicker-line"></span> WHY YOU WILL LOVE IT / 03 <span class="kicker-line"></span></div>
+          <h2 class="section-title" id="features-heading">Một trang sách.<br><em>Nhiều điều đọng lại.</em></h2>
+          <p class="body-copy mx-auto">Không chỉ là một câu chuyện, đây là lời mời dành một khoảng thời gian thật chậm cho chính mình.</p>
+        </div>
+        <div class="row g-4 mt-2">
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-card h-100">
+              <div class="feature-icon"><i class="fa-solid fa-feather-pointed" aria-hidden="true"></i></div>
+              <span class="feature-num">01 / 04</span>
+              <h3>Ngôn từ dịu dàng</h3>
+              <p>Những câu chữ nhẹ nhàng, dễ đọc nhưng đủ sâu để khiến bạn muốn dừng lại.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-card h-100">
+              <div class="feature-icon"><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i></div>
+              <span class="feature-num">02 / 04</span>
+              <h3>Hành trình khám phá</h3>
+              <p>Cùng nhân vật đi qua miền đất mới và nhìn những điều cũ theo cách khác.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-card h-100">
+              <div class="feature-icon"><i class="fa-regular fa-heart" aria-hidden="true"></i></div>
+              <span class="feature-num">03 / 04</span>
+              <h3>Chữa lành tinh thần</h3>
+              <p>Một góc nhỏ để suy ngẫm, không vội vàng và không cần phải hoàn hảo.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="feature-card h-100">
+              <div class="feature-icon"><i class="fa-solid fa-book-open-reader" aria-hidden="true"></i></div>
+              <span class="feature-num">04 / 04</span>
+              <h3>Đọc theo nhịp riêng</h3>
+              <p>Những chương ngắn phù hợp với một buổi sáng yên tĩnh hoặc tối thư thái.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PRICES -->
+    <section class="section-pad section-white" id="prices" aria-labelledby="prices-heading">
+      <div class="container">
+        <div class="text-center section-heading-centered">
+          <div class="section-kicker justify-content-center"><span class="kicker-line"></span> CHOOSE YOUR EDITION / 04 <span class="kicker-line"></span></div>
+          <h2 class="section-title" id="prices-heading">Chọn phiên bản<br><em>dành riêng cho bạn.</em></h2>
+          <p class="body-copy mx-auto">Ba lựa chọn minh họa cho cách trình bày sản phẩm và bảng giá trên website bán sách.</p>
+        </div>
+        <div class="row g-4 align-items-stretch mt-2">
+          <div class="col-md-6 col-lg-4">
+            <article class="price-card h-100">
+              <div class="edition-type">DIGITAL EDITION</div>
+              <h3>Sách điện tử</h3>
+              <p class="price-subtitle">Nhẹ nhàng, tiện lợi và luôn bên bạn.</p>
+              <div class="price-value">49.000<span>đ</span></div>
+              <div class="price-rule"></div>
+              <ul class="price-benefits">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Phiên bản e-book (minh họa)</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Đọc trên thiết bị cá nhân</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Đoạn trích tải miễn phí</li>
+              </ul>
+              <a href="#download" data-plan="Sách điện tử" class="btn price-button">Xem bản đọc thử <i class="fa-solid fa-arrow-right ms-2" aria-hidden="true"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="price-card price-card-featured h-100">
+              <div class="price-ribbon">ĐƯỢC QUAN TÂM</div>
+              <div class="edition-type">SIGNATURE EDITION</div>
+              <h3>Combo đặc biệt</h3>
+              <p class="price-subtitle">Một món quà gửi tới người yêu sách.</p>
+              <div class="price-value">89.000<span>đ</span></div>
+              <div class="price-rule"></div>
+              <ul class="price-benefits">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Sách giấy + e-book (minh họa)</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Bookmark thiết kế riêng</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Thiệp trích dẫn tặng kèm</li>
+              </ul>
+              <a href="#download" data-plan="Combo đặc biệt" class="btn price-button">Xem bản đọc thử <i class="fa-solid fa-arrow-right ms-2" aria-hidden="true"></i></a>
+            </article>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <article class="price-card h-100">
+              <div class="edition-type">COLLECTOR'S EDITION</div>
+              <h3>Bản bìa cứng</h3>
+              <p class="price-subtitle">Một phiên bản đẹp để giữ lại lâu hơn.</p>
+              <div class="price-value">129.000<span>đ</span></div>
+              <div class="price-rule"></div>
+              <ul class="price-benefits">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Bìa cứng cao cấp (minh họa)</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Giấy mỹ thuật và trang màu</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Bookmark lưu niệm</li>
+              </ul>
+              <a href="#download" data-plan="Bản bìa cứng" class="btn price-button">Xem bản đọc thử <i class="fa-solid fa-arrow-right ms-2" aria-hidden="true"></i></a>
+            </article>
+          </div>
+        </div>
+        <p class="price-disclaimer text-center mt-4"><i class="fa-solid fa-circle-info me-2" aria-hidden="true"></i> Giá và các phiên bản chỉ là dữ liệu demo của bài tập. Trang không bán hàng hay xử lý thanh toán.</p>
+      </div>
+    </section>
+
+    <!-- 6. DOWNLOAD -->
+    <section class="download-section" id="download" aria-labelledby="download-heading">
+      <div class="container">
+        <div class="download-panel row gx-lg-5 gy-5 align-items-center">
+          <div class="col-lg-7">
+            <div class="section-kicker section-kicker-light"><span class="kicker-line"></span> FREE READING SAMPLE / 05</div>
+            <h2 class="section-title" id="download-heading">Một chương đọc thử.<br><em>Một chút bình yên.</em></h2>
+            <p>Tải miễn phí đoạn trích định dạng TXT — bạn có thể mở bằng Notepad, điện thoại hoặc bất kỳ trình đọc văn bản nào. Không yêu cầu đăng ký.</p>
+            <a class="btn btn-download" href="assets/chuong-doc-thu.txt" download="nhung-ngay-chua-dat-ten-doc-thu.txt"><i class="fa-solid fa-download me-2" aria-hidden="true"></i> Tải chương đọc thử (.txt)</a>
+            <span class="download-detail"><i class="fa-regular fa-circle-check me-1" aria-hidden="true"></i> File có sẵn · Miễn phí · Không cần tài khoản</span>
+            <p id="planFeedback" class="plan-feedback" role="status" aria-live="polite" hidden></p>
+          </div>
+          <div class="col-lg-5 text-center">
+            <div class="download-visual" aria-hidden="true">
+              <div class="download-paper download-paper-back"></div>
+              <div class="download-paper download-paper-front"><span>CHAPTER 01</span><i class="fa-solid fa-feather-pointed"></i><strong>Ngày đầu tiên<br>của một hành trình.</strong><small>Mọi chuyến đi đều bắt đầu từ một bước chân...</small><span class="paper-bottom">MỘC BOOKS · ĐỌC THỬ</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. READER'S SAY -->
+    <section class="section-pad testimonials-section" id="reviews" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="text-center section-heading-centered">
+          <div class="section-kicker justify-content-center"><span class="kicker-line"></span> READER'S SAY / 06 <span class="kicker-line"></span></div>
+          <h2 class="section-title" id="reviews-heading">Mỗi người đọc.<br><em>Một câu chuyện riêng.</em></h2>
+          <p class="body-copy mx-auto">Các lời nhận xét dưới đây là nội dung hư cấu để minh họa khu vực đánh giá sản phẩm.</p>
+        </div>
+        <div id="readerCarousel" class="carousel slide review-carousel" data-bs-ride="carousel" data-bs-interval="6000" aria-label="Cảm nhận của bạn đọc minh họa">
+          <div class="carousel-indicators review-indicators">
+            <button type="button" data-bs-target="#readerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Nhận xét 1"></button>
+            <button type="button" data-bs-target="#readerCarousel" data-bs-slide-to="1" aria-label="Nhận xét 2"></button>
+            <button type="button" data-bs-target="#readerCarousel" data-bs-slide-to="2" aria-label="Nhận xét 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <figure class="review-card">
+                <div class="review-quote-icon" aria-hidden="true">“</div>
+                <blockquote>“Một cuốn sách khiến mình nhận ra rằng không phải lúc nào cũng cần chạy thật nhanh. Có những ngày, chỉ cần hiện diện là đủ.”</blockquote>
+                <figcaption><span class="review-avatar">LA</span><span><strong>Lan Anh</strong><small>Nhận xét minh họa · Bạn đọc demo</small></span></figcaption>
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="review-card">
+                <div class="review-quote-icon" aria-hidden="true">“</div>
+                <blockquote>“Mình thích cách câu chuyện kể về những điều bình thường bằng một giọng rất ấm. Đọc xong chỉ muốn viết một lá thư cho bản thân.”</blockquote>
+                <figcaption><span class="review-avatar review-avatar-teal">MQ</span><span><strong>Minh Quân</strong><small>Nhận xét minh họa · Bạn đọc demo</small></span></figcaption>
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="review-card">
+                <div class="review-quote-icon" aria-hidden="true">“</div>
+                <blockquote>“Như một buổi chiều ngồi bên cửa sổ, nghe mưa rơi và thấy lòng nhẹ hơn. Mình rất thích tinh thần bình yên của câu chuyện.”</blockquote>
+                <figcaption><span class="review-avatar review-avatar-sand">TN</span><span><strong>Thảo Nhi</strong><small>Nhận xét minh họa · Bạn đọc demo</small></span></figcaption>
+              </figure>
+            </div>
+          </div>
+          <button class="carousel-control-prev review-control" type="button" data-bs-target="#readerCarousel" data-bs-slide="prev" aria-label="Nhận xét trước"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i></button>
+          <button class="carousel-control-next review-control" type="button" data-bs-target="#readerCarousel" data-bs-slide="next" aria-label="Nhận xét tiếp theo"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-4 align-items-start">
+        <div class="col-md-5">
+          <a class="book-brand footer-brand" href="#home"><span class="brand-icon" aria-hidden="true"><i class="fa-solid fa-book-open"></i></span> MỘC<span class="brand-dot">.</span><small>books</small></a>
+          <p>Những câu chuyện nhỏ, những chân trời lớn.<br>Một website giới thiệu sách dành cho bài thực hành frontend.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h3>Khám phá</h3>
+          <ul><li><a href="#overview">Giới thiệu sách</a></li><li><a href="#author">Tác giả</a></li><li><a href="#features">Điểm nổi bật</a></li><li><a href="#prices">Bảng giá demo</a></li></ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h3>Kết nối cùng câu chuyện</h3>
+          <ul><li><a href="#download">Tải đoạn đọc thử</a></li><li><a href="#reviews">Cảm nhận bạn đọc</a></li><li><a href="#home">Quay lại đầu trang ↑</a></li></ul>
+          <p class="footer-demo-note">Trang demo, không thu thập dữ liệu hay thực hiện mua bán.</p>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex flex-column flex-sm-row gap-2 justify-content-between"><span>© <span id="currentYear">2026</span> Mộc Books · CodeGym practice.</span><span>DESIGNED WITH <span aria-hidden="true">♥</span> &amp; STORIES</span></div>
+    </div>
+  </footer>
+</body>
+</html>
